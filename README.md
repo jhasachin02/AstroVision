@@ -1,10 +1,10 @@
-# 🚀 AstroVision: Space Station Object Detection with YOLOv8
+#  AstroVision: Space Station Object Detection with YOLOv8
 
 AstroVision is a complete object detection pipeline using YOLOv8 to identify Toolbox, Oxygen Tank, and Fire Extinguisher in space station environments. It leverages synthetic data from Duality AI Falcon and provides robust, real-time detection and analytics.
 
 ---
 
-## 🎯 Key Features
+## Key Features
 - YOLOv8 training pipeline with hyperparameter optimization
 - Data augmentation (mosaic, HSV, flip, rotation, scaling)
 - Real-time inference and Streamlit web app
@@ -13,7 +13,7 @@ AstroVision is a complete object detection pipeline using YOLOv8 to identify Too
 - Modular code, logging, and error handling
 - GPU/CPU support, YAML-configurable hyperparameters
 
-## 📦 Quick Start
+## Quick Start
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
@@ -38,7 +38,7 @@ AstroVision is a complete object detection pipeline using YOLOv8 to identify Too
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 - `config.yaml` — Main configuration file
 - `environment.yml` — Conda environment
 - `setup.py` — Setup script
@@ -52,7 +52,7 @@ AstroVision is a complete object detection pipeline using YOLOv8 to identify Too
 - `models/` — Pre-trained models
 - `results/` — Evaluation results
 
-## 📂 Dataset Preparation
+## Dataset Preparation
 ```
 dataset/
   train/
